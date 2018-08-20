@@ -1,0 +1,9 @@
+Episode 1 - The murderer is Miss Scarlet
+Episode 2 - Error due to const murder being reassigned
+Episode 3 - First Verdict is Mrs. Peacock, Second Verdict is Professor Plum due to "let murderer" in the function
+Episode 4 - Suspects are Miss Scarlett, Professor Plum and Colonel Mustard. Suspect 3 is Mrs Peacock due to "let suspectThree" in the function
+Episode 5 - The weapon is the Revolver. Even though scenario is const you can still change key values
+Episode 6 - The murderer is Mrs White. Last name to be declared as murderer?
+Episode 7 - The murderer is Mr Green. Is it because changeMurderer is called last and it's a global variable? Not sure why it wouldn't be Miss Scarlet
+Episode 8 - The weapon is Candle Stick. changeScenario changes murderer and room to Mrs. Peacock and dining room. plotTwist changes murderer to Colonel Mustard and unexpectedOutcome changes the weapon to Candle Stick.
+Episode 9 - The murderer is Professor Plum. let murderer happens in the if statement so only changes for that block.
